@@ -120,7 +120,7 @@ p {
 .nav-address {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
 }
 
 .nav-address .header-link {
@@ -145,6 +145,17 @@ p {
     background-color: var(--hero-footer-background-color);
     letter-spacing: 0.06em;
     text-align: center;
+    max-width: 1600px;
+    margin: auto;
+    background-image: 
+        linear-gradient(
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)
+            ), 
+        url('../images/background-hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .hero-section .container {
