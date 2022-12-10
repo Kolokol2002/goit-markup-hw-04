@@ -357,8 +357,11 @@ p {
     background-color: var(--hero-footer-background-color);
 }
 
+.footer-container {
+    display: flex;
+}
+
 .footer-content {
-    display: inline-block;
     margin-right: 70px;
 }
 
@@ -386,10 +389,6 @@ p {
 
 .footer-item:not(:last-child) {
     padding-bottom: 9px;
-}
-
-.footer-social {
-    display: inline-block;      
 }
 
 .footer-title-social {
@@ -464,12 +463,17 @@ p {
 .portfolio-button:focus {
     background-color: var(--brand-color);
     color: var(--primary-background-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-cards {
     display: flex;
     flex-wrap: wrap;
     
+}
+
+.portfolio-card:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 
