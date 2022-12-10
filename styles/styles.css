@@ -125,7 +125,6 @@ p {
 
 .address-link {
     display: flex;
-    /* gap: 10px; */
     padding: 30px 0;
     color: var(--secondary-color-text);
     font-style: normal;
@@ -359,6 +358,7 @@ p {
 
 .footer-container {
     display: flex;
+
 }
 
 .footer-content {
@@ -366,6 +366,7 @@ p {
 }
 
 .footer-logo {
+    display: block;
     color: var(--primary-background-color);
     margin: 0 0 20px;
 }
@@ -407,6 +408,10 @@ p {
     gap: 10px;
     align-items: center;
     margin-bottom: 30px;
+}
+
+.footer-social {
+    padding-top: 12px;
 }
 
 .footer-icon {
